@@ -11,6 +11,7 @@ vim.api.nvim_create_user_command('Startlsp', function()
     require('lspconfig').clangd.setup{}
     require('lspconfig').lua_ls.setup{}
     require('lspconfig').tsserver.setup{}
+    require('lspconfig').psalm.setup{}
     vim.cmd('edit!')
 end, {})
 
