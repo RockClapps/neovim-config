@@ -1,5 +1,5 @@
 set langmap=hjklHJKLneioNEIO;neioNEIOhjklHJKL
-set clipboard="unnamedplus"
+set clipboard+="unnamedplus"
 set number
 set expandtab
 set tabstop=2
